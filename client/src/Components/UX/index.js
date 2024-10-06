@@ -1,4 +1,7 @@
 import React from "react";
+import userflowchart from '../../Assets/Images/user_flow_chart.jpg';
+import bpstoryboard from '../../Assets/Images/Big_Picture_Storyboard.jpg'
+import custoryboard from '../../Assets/Images/Close-Up_Storyboard.jpg'
 
 function UX() {
     return(
@@ -21,26 +24,42 @@ function UX() {
                     <h2 id="remove-margin">Project 1:</h2>
                     <h2 id="close-together"><span id="vapor">"El Puente a Otro Mundo"</span></h2>
                      <p>I had the pleasure of leading the UX design and research efforts for the fictional musuem "El Puente a Otro Mundo", who were in need of a new front facing website/application to better provide transparency and ease of access to all of their important events and exhibits.</p>
-                    {/* <div className="proj-1-roles">
+                    <div className="proj-1-roles">
 
                         <div className="location">
-                            <h3>Location</h3>
-                            <p>San Antonio, Texas</p>
+                            <h3>Location:</h3>
+                            <p><span id="vapor">San Antonio, Texas</span></p>
                         </div>
 
                         <div className="responsibilites">
-                            <h3>Responsibilites</h3>
-                            <p>UX/UI Design</p>
+                            <h3>Responsibilites:</h3>
+                            <p><span id="vapor">UX/UI Design</span></p>
 
                         </div>
 
                         <div className="tech">
-                            <h3>Technologies</h3>
-                            <p>Procreate, Figma, Adobe Photoshop, Adobe Illustrator, wireframe.cc</p>
+                            <h3>Technologies:</h3>
+                            <p><span id="vapor">Procreate, Figma, Adobe CC, wireframe.cc</span></p>
                         </div>
 
-                    </div> */}
+                    </div>
                 </div>
+                    <div className="proj-prelim-photos">
+
+                        <div className="photo-block">
+                            <img src={userflowchart} id="userflowchart"></img>
+                            <p>Inital User Flow Chart</p>
+                        </div>
+                        <div className="photo-block-2">
+                            <img src={bpstoryboard} id="bpstoryboard"></img>
+                            <p>Big Picture Storyboard</p>
+
+                            <img src={custoryboard} id="custoryboard"></img>
+                            <p>Close Up Storyboard</p>
+                        </div>
+                
+                    </div>
+  
 
                 {/* <div className="proj-1-research">
                     <h2></h2>
