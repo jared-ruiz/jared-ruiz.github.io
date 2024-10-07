@@ -1,7 +1,7 @@
 import React from "react";
 // import about_text from '../../Assets/Images/about_title.png';
-import about_me_pic from '../../Assets/Images/about_me_pic.png';
-import about_me_pic_02 from '../../Assets/Images/about_profile_02.png';
+import about_me_pic from '../../Assets/Images/about_me_pic-min.png';
+import about_me_pic_02 from '../../Assets/Images/about_profile_02-min.png';
 
 function About() {
     return(

@@ -59,26 +59,31 @@ const ImageArray = [
         },
         {
             index: 10,
+            title: "halloween flyer",
+            src: require('../../Assets/Compressed_Images/halloween_flyer_01-min.jpg')
+        },
+        {
+            index: 11,
             title: "shoes_ad",
             src: require('../../Assets/Compressed_Images/shoes_ad-min.jpg')
         },
         {
-            index: 11,
+            index: 12,
             title: "naja_beauty",
             src: require('../../Assets/Compressed_Images/naja_poster-min.jpg')
         },
         {
-            index: 12,
+            index: 13,
             title: "aragorn",
             src: require('../../Assets/Compressed_Images/aragorn_01-min.jpg')
         },
         {
-            index: 13,
+            index: 14,
             title: "vapor_aesth",
             src: require('../../Assets/Compressed_Images/vapor_aesth-min.jpg')
         },
         {
-            index: 14,
+            index: 15,
             title: "vintage_tech_poster",
             src: require('../../Assets/Compressed_Images/vintage-tech-poster-min.jpg')
         }
