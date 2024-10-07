@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.38e28a30.css",
-    "main.js": "/static/js/main.f45aa4c6.js",
+    "main.js": "/static/js/main.f485876c.js",
     "static/js/453.22de99da.chunk.js": "/static/js/453.22de99da.chunk.js",
     "static/media/staircase_01-min.jpg": "/static/media/staircase_01-min.b4e64a27f9729043e266.jpg",
     "static/media/me_texture-min.jpg": "/static/media/me_texture-min.d0030ded81cc27646e49.jpg",
@@ -11,26 +11,27 @@
     "static/media/woman_on_car-min.jpg": "/static/media/woman_on_car-min.272f7eb26619261a6036.jpg",
     "static/media/squatting_02-min.jpg": "/static/media/squatting_02-min.80cd6909fe74d1487366.jpg",
     "static/media/squatting_01-min.jpg": "/static/media/squatting_01-min.b24896d6733f18935570.jpg",
-    "static/media/about_profile_02.png": "/static/media/about_profile_02.eb87a117cd1fa9cacc57.png",
     "static/media/vintage-tech-poster-min.jpg": "/static/media/vintage-tech-poster-min.2576f121177a731ee4b3.jpg",
     "static/media/naja_poster-min.jpg": "/static/media/naja_poster-min.f13ce90f831fbe4bd522.jpg",
     "static/media/user_flow_chart.jpg": "/static/media/user_flow_chart.8cf062d3bd1e5e325ec8.jpg",
     "static/media/woman_boots-min.jpg": "/static/media/woman_boots-min.00d61f564889cd8bf386.jpg",
+    "static/media/halloween_flyer_01-min.jpg": "/static/media/halloween_flyer_01-min.0facea0dff054682ba49.jpg",
     "static/media/full_body_thinking-min.jpg": "/static/media/full_body_thinking-min.c336e8f6066eeef01022.jpg",
     "static/media/shoes_ad-min.jpg": "/static/media/shoes_ad-min.e97f72b1b16a0a24aeaf.jpg",
     "static/media/vapor_aesth-min.jpg": "/static/media/vapor_aesth-min.41fa2909d3b755fdb2bc.jpg",
     "static/media/aragorn_01-min.jpg": "/static/media/aragorn_01-min.02d15cd38254e7fe8204.jpg",
-    "static/media/about_me_pic.png": "/static/media/about_me_pic.33c775109ec341abfc43.png",
+    "static/media/about_profile_02-min.png": "/static/media/about_profile_02-min.ef1195156a0340d86cd3.png",
     "static/media/Big_Picture_Storyboard.jpg": "/static/media/Big_Picture_Storyboard.6a0eec2827e23b003cfc.jpg",
     "static/media/Close-Up_Storyboard.jpg": "/static/media/Close-Up_Storyboard.8cfaf7f9d4405131f634.jpg",
+    "static/media/about_me_pic-min.png": "/static/media/about_me_pic-min.d9d86bc8181ddde9f7c3.png",
     "static/media/Resume(Jared_Ruiz).pdf": "/static/media/Resume(Jared_Ruiz).04d36a83ed2949486227.pdf",
     "index.html": "/index.html",
     "main.38e28a30.css.map": "/static/css/main.38e28a30.css.map",
-    "main.f45aa4c6.js.map": "/static/js/main.f45aa4c6.js.map",
+    "main.f485876c.js.map": "/static/js/main.f485876c.js.map",
     "453.22de99da.chunk.js.map": "/static/js/453.22de99da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38e28a30.css",
-    "static/js/main.f45aa4c6.js"
+    "static/js/main.f485876c.js"
   ]
 }
