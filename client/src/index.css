@@ -953,5 +953,20 @@ button:active {
   .tech {
     align-items: center;
   }
+
+  #userflowchart:hover {
+    z-index: 1;
+    transform: none;
+  }
+  
+  #bpstoryboard:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  #custoryboard:hover {
+    z-index: 1;
+    transform: none;
+  }
   
 }
