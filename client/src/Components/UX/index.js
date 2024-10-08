@@ -48,7 +48,7 @@ function UX() {
 
                         <div className="photo-block">
                             <img src={userflowchart} id="userflowchart"></img>
-                            <p>Inital User Flow Chart</p>
+                            <p>Initial User Flow Chart</p>
                         </div>
                         <div className="photo-block-2">
                             <img src={bpstoryboard} id="bpstoryboard"></img>
