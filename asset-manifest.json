@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe04b9cd.css",
-    "main.js": "/static/js/main.85df7c90.js",
+    "main.js": "/static/js/main.84160db8.js",
     "static/js/453.22de99da.chunk.js": "/static/js/453.22de99da.chunk.js",
     "static/media/staircase_01-min.jpg": "/static/media/staircase_01-min.b4e64a27f9729043e266.jpg",
     "static/media/me_texture-min.jpg": "/static/media/me_texture-min.d0030ded81cc27646e49.jpg",
@@ -22,16 +22,17 @@
     "static/media/aragorn_01-min.jpg": "/static/media/aragorn_01-min.02d15cd38254e7fe8204.jpg",
     "static/media/about_profile_02-min.png": "/static/media/about_profile_02-min.ef1195156a0340d86cd3.png",
     "static/media/Big_Picture_Storyboard.jpg": "/static/media/Big_Picture_Storyboard.6a0eec2827e23b003cfc.jpg",
+    "static/media/woman_coat_02-min.jpg": "/static/media/woman_coat_02-min.48baba779712a7d53c2c.jpg",
     "static/media/Close-Up_Storyboard.jpg": "/static/media/Close-Up_Storyboard.8cfaf7f9d4405131f634.jpg",
     "static/media/about_me_pic-min.png": "/static/media/about_me_pic-min.d9d86bc8181ddde9f7c3.png",
     "static/media/Resume(Jared_Ruiz).pdf": "/static/media/Resume(Jared_Ruiz).04d36a83ed2949486227.pdf",
     "index.html": "/index.html",
     "main.fe04b9cd.css.map": "/static/css/main.fe04b9cd.css.map",
-    "main.85df7c90.js.map": "/static/js/main.85df7c90.js.map",
+    "main.84160db8.js.map": "/static/js/main.84160db8.js.map",
     "453.22de99da.chunk.js.map": "/static/js/453.22de99da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe04b9cd.css",
-    "static/js/main.85df7c90.js"
+    "static/js/main.84160db8.js"
   ]
 }
