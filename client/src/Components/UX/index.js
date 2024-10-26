@@ -1,9 +1,9 @@
 import React from "react";
-import userflowchart from '../../Assets/Images/user_flow_chart.jpg';
-import bpstoryboard from '../../Assets/Images/Big_Picture_Storyboard.jpg';
-import custoryboard from '../../Assets/Images/Close-Up_Storyboard.jpg';
-import companylogo from '../../Assets/Images/logo_01.png';
-import wireframe from '../../Assets/Images/wireframe_02.jpg';
+import userflowchart from '../../Assets/Compressed_Images/compressed_ux_images/user_flow_chart-min.jpg';
+import bpstoryboard from '../../Assets/Compressed_Images/compressed_ux_images/Big_Picture_Storyboard-min.jpg';
+import custoryboard from '../../Assets/Compressed_Images/compressed_ux_images/Close-Up_Storyboard-min.jpg';
+import companylogo from '../../Assets/Compressed_Images/compressed_ux_images/logo_01-min.png';
+import wireframe from '../../Assets/Compressed_Images/compressed_ux_images/wireframe_02-min.jpg';
 
 function UX() {
     return(
