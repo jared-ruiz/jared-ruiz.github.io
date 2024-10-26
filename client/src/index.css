@@ -378,7 +378,7 @@ p {
   /* max-width: 100%; */
   width: 80%;
   height: auto;
-  margin: 10px;
+  margin: 10px 10px 20px 10px;
   border-radius: 10px;
   box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
 }
@@ -430,6 +430,55 @@ p {
 .proj-1-sum {
   display: flex;
   flex-direction: row;
+}
+
+.logo-block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.wireframe-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+#company_logo {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+#wireframe {
+  border-radius: 10px;
+  box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+#wireframe:hover {
+  z-index: 1;
+  transform: translateZ(0) scale(1.03);
+  transition: .2s ease-out;
+}
+
+#company_logo:hover {
+  z-index: 1;
+  transform: translateZ(0) scale(1.03);
+  transition: .2s ease-out;
 }
 
 .design {
@@ -561,7 +610,7 @@ button:active {
   margin-right: 10px;
 }
 
-
+/*MEDA QUERIES*/
 
 @media (max-width:972px) {
 
@@ -686,6 +735,55 @@ button:active {
     width: 100%;
   }
 
+  #userflowchart:hover {
+    z-index: 1;
+    transform: none;
+  }
+  
+  #bpstoryboard:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  #custoryboard:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  .logo-block {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .logo-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #company_logo {
+    width: 50%;
+  }
+
+  #company_logo:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  .wireframe-div {
+    width: 100%;
+  }
+
+  #wireframe {
+    width: 80%;
+  }
+
+  #wireframe:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+
 
 }
 
@@ -706,6 +804,7 @@ button:active {
   }
 }
 
+/*MOBILE*/
 @media only screen and (max-width: 530px) {
 
   .about {
@@ -965,6 +1064,37 @@ button:active {
   }
 
   #custoryboard:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  .logo-block {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .logo-div {
+    width: 100%;
+  }
+
+  #company_logo {
+    width: 60%;
+  }
+
+  #company_logo:hover {
+    z-index: 1;
+    transform: none;
+  }
+
+  .wireframe-div {
+    width: 100%;
+  }
+
+  #wireframe {
+    max-width: 80%
+  }
+
+  #wireframe:hover {
     z-index: 1;
     transform: none;
   }

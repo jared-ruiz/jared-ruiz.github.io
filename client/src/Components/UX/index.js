@@ -1,7 +1,9 @@
 import React from "react";
 import userflowchart from '../../Assets/Images/user_flow_chart.jpg';
-import bpstoryboard from '../../Assets/Images/Big_Picture_Storyboard.jpg'
-import custoryboard from '../../Assets/Images/Close-Up_Storyboard.jpg'
+import bpstoryboard from '../../Assets/Images/Big_Picture_Storyboard.jpg';
+import custoryboard from '../../Assets/Images/Close-Up_Storyboard.jpg';
+import companylogo from '../../Assets/Images/logo_01.png';
+import wireframe from '../../Assets/Images/wireframe_02.jpg';
 
 function UX() {
     return(
@@ -44,32 +46,36 @@ function UX() {
 
                     </div>
                 </div>
-                    <div className="proj-prelim-photos">
+                <div className="proj-prelim-photos">
 
-                        <div className="photo-block">
-                            <img src={userflowchart} id="userflowchart"></img>
-                            <p>Initial User Flow Chart</p>
-                        </div>
-                        <div className="photo-block-2">
-                            <img src={bpstoryboard} id="bpstoryboard"></img>
-                            <p>Big Picture Storyboard</p>
-
-                            <img src={custoryboard} id="custoryboard"></img>
-                            <p>Close Up Storyboard</p>
-                        </div>
-                
+                    <div className="photo-block">
+                        <img src={userflowchart} id="userflowchart"></img>
+                        <p>Initial User Flow Chart</p>
                     </div>
-  
+                    <div className="photo-block-2">
+                        <img src={bpstoryboard} id="bpstoryboard"></img>
+                        <p>Big Picture Storyboard</p>
 
-                {/* <div className="proj-1-research">
-                    <h2></h2>
+                        <img src={custoryboard} id="custoryboard"></img>
+                        <p>Close Up Storyboard</p>
+                    </div>            
+                </div> 
 
-                </div> */}
+                <div className="logo-block">
+                    <div className="logo-div">
+                        <img src={companylogo} id="company_logo"/>
+                        <p>Logo (WIP)</p>
+                    </div>
+                    <div className="wireframe-div">
+                        <img src={wireframe} id="wireframe"/>
+                        <p>Initial Wireframe</p>
+                    </div>
 
 
-            
-            
-            
+
+                </div>
+
+        
             
             </div>
 
