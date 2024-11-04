@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e882226.css",
-    "main.js": "/static/js/main.d74c7cb1.js",
+    "main.css": "/static/css/main.3141f7b6.css",
+    "main.js": "/static/js/main.3e54f0de.js",
     "static/js/453.22de99da.chunk.js": "/static/js/453.22de99da.chunk.js",
     "static/media/staircase_01-min.jpg": "/static/media/staircase_01-min.b4e64a27f9729043e266.jpg",
     "static/media/me_texture-min.jpg": "/static/media/me_texture-min.d0030ded81cc27646e49.jpg",
@@ -29,12 +29,14 @@
     "static/media/Resume(Jared_Ruiz).pdf": "/static/media/Resume(Jared_Ruiz).ae48e0612cb1245e44e6.pdf",
     "static/media/logo_01-min.png": "/static/media/logo_01-min.4e217c913244120f712f.png",
     "index.html": "/index.html",
-    "main.8e882226.css.map": "/static/css/main.8e882226.css.map",
-    "main.d74c7cb1.js.map": "/static/js/main.d74c7cb1.js.map",
+    "static/media/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/static/media/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.fb4cabc3dd433946ff0b50f2c1f39c67.svg",
+    "static/media/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/static/media/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.444d0e11927b4093fcb9984b421bfade.svg",
+    "main.3141f7b6.css.map": "/static/css/main.3141f7b6.css.map",
+    "main.3e54f0de.js.map": "/static/js/main.3e54f0de.js.map",
     "453.22de99da.chunk.js.map": "/static/js/453.22de99da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e882226.css",
-    "static/js/main.d74c7cb1.js"
+    "static/css/main.3141f7b6.css",
+    "static/js/main.3e54f0de.js"
   ]
 }
