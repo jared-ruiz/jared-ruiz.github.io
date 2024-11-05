@@ -17,6 +17,7 @@ function Nav() {
         <ul className={`nav-links ${navBarActive ? "hidden" : ""}`}>
           <li><Link to="/">Designs</Link></li>
           <li><Link to="/ux">UX/UI</Link></li>
+          <li><Link to="/sketchbook">Sketchbook</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
@@ -37,6 +38,7 @@ function Nav() {
             <li><Link to="/" onClick={toggleNavBar}>Designs</Link></li>
             <li><Link to="/ux" onClick={toggleNavBar}>UX/UI</Link></li>
             <li><Link to="/about" onClick={toggleNavBar}>About</Link></li>
+            <li><Link to="/sketchbook" onClick={toggleNavBar}>Sketchbook</Link></li>
             <li><Link to="/contact" onClick={toggleNavBar}>Contact</Link></li>
           </ul>
         </div>

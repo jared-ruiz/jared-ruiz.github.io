@@ -32,7 +32,7 @@ a {
   width: 100%;
   /* padding: 0 20px; */
   z-index: 2;
-  margin-top: 8px;
+  margin-top: 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -493,6 +493,13 @@ p {
 
 }
 
+.sketchbook {
+  display: flex;
+  height: auto;
+  background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85));
+}
+
+
 .grid {
   display: grid;
   margin-top: 50px;
@@ -669,6 +676,11 @@ button:active {
 
 .burger-div {
   display: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 #burger, #x_icon {
@@ -677,6 +689,11 @@ button:active {
 
 #burger, #x_icon:hover {
   color: #50727B;
+}
+
+.burger-div:hover {
+  background-color:  #50727B;
+
 }
 
 .close-icon {
@@ -871,7 +888,7 @@ button:active {
 
 }
 
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 800px) {
 
   .burger-div {
     display: flex;
