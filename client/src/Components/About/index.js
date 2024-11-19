@@ -18,7 +18,7 @@ function About() {
 
                     <div className="background-text">
                         <h2>Hello, my name is Jared Ruiz</h2>
-                        <p>I am a <span id="vapor">graphic designer, video editor, front-end developer, and UX/UI designer</span> based in San Antonio, Texas. I have over <span id="underline">3 years experience</span> working within small business creating and managing media creation and social media endeavors in the cyber security industry, and over <span id="underline">5 years experience</span> in education and B2C sales.</p>
+                        <p>I am a <span id="vapor">graphic designer, video editor, front-end developer, and UX/UI designer</span> based in San Antonio, Texas. I have over <span id="underline">3 years of experience</span> working within small businesses, creating and managing media creation and social media efforts in the cyber security industry, and over <span id="underline">5 years of experience</span> in education and B2C sales.</p>
                         <p>Whether it’s voiceovers for informational video projects, content for your next marketing campaign, website UI refactoring, or social media management, I can do it all and more. I look forward to working with you!</p>
                         <p>- J</p>
                     </div>
