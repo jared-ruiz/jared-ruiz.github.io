@@ -4,6 +4,9 @@ import bpstoryboard from '../../Assets/Compressed_Images/compressed_ux_images/Bi
 import custoryboard from '../../Assets/Compressed_Images/compressed_ux_images/Close-Up_Storyboard-min.jpg';
 import companylogo from '../../Assets/Compressed_Images/compressed_ux_images/logo_01-min.png';
 import wireframe from '../../Assets/Compressed_Images/compressed_ux_images/wireframe_02-min.jpg';
+import affinitydiag from '../../Assets/Compressed_Images/compressed_ux_images/Affinity Diagram-min.png';
+import gabriella from '../../Assets/Compressed_Images/compressed_ux_images/journey_map_gabriella-min.PNG';
+import tyler from '../../Assets/Compressed_Images/compressed_ux_images/journey_map_tyler-min.PNG';
 
 function UX() {
     return(
@@ -29,19 +32,19 @@ function UX() {
                     <div className="proj-1-roles">
 
                         <div className="location">
-                            <h3>Location:</h3>
-                            <p><span id="vapor">San Antonio, Texas</span></p>
+                            <h3><span id="vapor">Location:</span></h3>
+                            <p>San Antonio, Texas</p>
                         </div>
 
                         <div className="responsibilites">
-                            <h3>Responsibilites:</h3>
-                            <p><span id="vapor">UX/UI Design</span></p>
+                            <h3><span id="vapor">Responsibilites:</span></h3>
+                            <p>UX/UI Design</p>
 
                         </div>
 
                         <div className="tech">
-                            <h3>Technologies:</h3>
-                            <p><span id="vapor">Procreate, Figma, Adobe CC, wireframe.cc</span></p>
+                            <h3><span id="vapor">Technologies:</span></h3>
+                            <p>Procreate, Figma, Adobe CC, wireframe.cc</p>
                         </div>
 
                     </div>
@@ -70,11 +73,43 @@ function UX() {
                         <img src={wireframe} id="wireframe"/>
                         <p>Initial Wireframe</p>
                     </div>
-
-
-
                 </div>
 
+                <div className="proj-1-info">
+
+                        <div className="info-bg">
+                            <h2 id="shrink"><span id="vapor">Project Background:</span></h2>
+                            <p>"I am creating an application for a local museum to help facilitate ticket purchases for special exhibitional events and also provide easy to access information for commuting and planning the everyday museum visit."</p>
+                        </div>
+
+                        <div className="info-questions">
+                            <h2 id="shrink"><span id="vapor">Research Questions:</span></h2>
+                            <p>1.) How quickly can a patron purchase a ticket to an exhibit of their choice?</p>
+                            <p>2.) How can we design clear and efficient user flows for first-time users unfamiliar with the museum’s offerings?</p>
+                        </div>
+
+                        <div className="info-participants">
+                            <h2 id="shrink"><span id="vapor">Participants:</span></h2>
+                            <p>10 Participants: 4 Men, 6 Women</p>
+                            <p>Primarily targeting locals who are interested in art, history and recreational activities in their city.</p>
+                        </div>
+                    
+                </div>
+
+                <div className="proj-prelim-photos">
+
+                    <div className="photo-block">
+                        <img src={affinitydiag} id="affinity"></img>
+                        <p>Affinity Diagram</p>
+                    </div>
+                    <div className="photo-block-2">
+                        <img src={gabriella} id="gabi"></img>
+                        <p>Journey Map (Gabriella)</p>
+
+                        <img src={tyler} id="ty"></img>
+                        <p>Journey Map (Tyler)</p>
+                    </div>            
+                </div>
         
             
             </div>

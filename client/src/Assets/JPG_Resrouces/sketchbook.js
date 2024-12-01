@@ -14,7 +14,12 @@ const SketchArray = [
     {
         index: 0,
         title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-3-min.jpg')
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-17-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-16-min.jpg')
     },
     {
         index: 0,
@@ -24,12 +29,27 @@ const SketchArray = [
     {
         index: 0,
         title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-6-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-5-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-2-min.jpg')
     },
     {
         index: 0,
         title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-6-min.jpg')
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-15-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-3-min.jpg')
     },
     {
         index: 0,
@@ -66,16 +86,9 @@ const SketchArray = [
         title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-13-min.jpg')
     },
-    {
-        index: 0,
-        title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-5-min.jpg')
-    },
-    {
-        index: 0,
-        title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-15-min.jpg')
-    },
+
+
+
 
 ];
 
