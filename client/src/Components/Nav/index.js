@@ -37,8 +37,8 @@ function Nav() {
           <ul>
             <li><Link to="/" onClick={toggleNavBar}>Designs</Link></li>
             <li><Link to="/ux" onClick={toggleNavBar}>UX/UI</Link></li>
-            <li><Link to="/about" onClick={toggleNavBar}>About</Link></li>
             <li><Link to="/sketchbook" onClick={toggleNavBar}>Sketchbook</Link></li>
+            <li><Link to="/about" onClick={toggleNavBar}>About</Link></li>
             <li><Link to="/contact" onClick={toggleNavBar}>Contact</Link></li>
           </ul>
         </div>

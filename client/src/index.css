@@ -1525,4 +1525,15 @@ button {
   font-size: 35px;
 }
 
+#affinity:hover {
+  transform: none;
+}
+
+#gabi:hover {
+  transform: none;
+}
+
+#ty:hover {
+  transform: none;
+}
 }
