@@ -1,11 +1,15 @@
 const SketchArray = [
-
-
     {
         index: 0,
         title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-1-min.jpg')
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-22-min.jpg')
     },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-19-min.jpg')
+    },
+
     {
         index: 0,
         title: "",
@@ -14,12 +18,31 @@ const SketchArray = [
     {
         index: 0,
         title: "",
-        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-17-min.jpg')
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-20-min.jpg')
     },
     {
         index: 0,
         title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-17-min.jpg')
+    },
+    
+    
+    {
+        index: 0,
+        title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-16-min.jpg')
+    },
+    
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-21-min.jpg')
+    },
+
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-23-min.jpg')
     },
     {
         index: 0,
@@ -29,7 +52,17 @@ const SketchArray = [
     {
         index: 0,
         title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-24-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-6-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-1-min.jpg')
     },
     {
         index: 0,
@@ -86,9 +119,6 @@ const SketchArray = [
         title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-13-min.jpg')
     },
-
-
-
 
 ];
 
