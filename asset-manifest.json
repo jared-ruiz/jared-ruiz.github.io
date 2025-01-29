@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf924fb0.css",
-    "main.js": "/static/js/main.7bb0711d.js",
+    "main.js": "/static/js/main.2f1bd1c7.js",
     "static/js/453.96f281e0.chunk.js": "/static/js/453.96f281e0.chunk.js",
     "static/media/staircase_01-min.jpg": "/static/media/staircase_01-min.b4e64a27f9729043e266.jpg",
     "static/media/me_texture-min.jpg": "/static/media/me_texture-min.d0030ded81cc27646e49.jpg",
@@ -19,14 +19,19 @@
     "static/media/full_body_thinking-min.jpg": "/static/media/full_body_thinking-min.c336e8f6066eeef01022.jpg",
     "static/media/shoes_ad-min.jpg": "/static/media/shoes_ad-min.e97f72b1b16a0a24aeaf.jpg",
     "static/media/vapor_aesth-min.jpg": "/static/media/vapor_aesth-min.41fa2909d3b755fdb2bc.jpg",
+    "static/media/Untitled-20-min.jpg": "/static/media/Untitled-20-min.c3b8bfa4a1aa9be0e887.jpg",
     "static/media/aragorn_01-min.jpg": "/static/media/aragorn_01-min.02d15cd38254e7fe8204.jpg",
     "static/media/about_profile_02-min.png": "/static/media/about_profile_02-min.ef1195156a0340d86cd3.png",
+    "static/media/Untitled-24-min.jpg": "/static/media/Untitled-24-min.1e50470f5ef2adb9bfbe.jpg",
     "static/media/woman_coat_02-min.jpg": "/static/media/woman_coat_02-min.48baba779712a7d53c2c.jpg",
     "static/media/Untitled-17-min.jpg": "/static/media/Untitled-17-min.86668f2f301eba47208a.jpg",
     "static/media/wireframe_02-min.jpg": "/static/media/wireframe_02-min.dc0f67cf4e242c965902.jpg",
     "static/media/Untitled-6-min.jpg": "/static/media/Untitled-6-min.dc6536ae626cc9af0ed6.jpg",
+    "static/media/Untitled-22-min.jpg": "/static/media/Untitled-22-min.8eca918a3bfcfe1ba834.jpg",
     "static/media/Untitled-8-min.jpg": "/static/media/Untitled-8-min.e8a18a86696ee1bb29cb.jpg",
     "static/media/user_flow_chart-min.jpg": "/static/media/user_flow_chart-min.d4ccc8cd6f5f365f5032.jpg",
+    "static/media/Untitled-19-min.jpg": "/static/media/Untitled-19-min.57280b58c9fead8c09b1.jpg",
+    "static/media/Untitled-23-min.jpg": "/static/media/Untitled-23-min.96d5b71cbad5cfdc83e4.jpg",
     "static/media/Untitled-12-min.jpg": "/static/media/Untitled-12-min.927936751f42b61900ea.jpg",
     "static/media/about_me_pic-min.png": "/static/media/about_me_pic-min.d9d86bc8181ddde9f7c3.png",
     "static/media/Big_Picture_Storyboard-min.jpg": "/static/media/Big_Picture_Storyboard-min.49421aed435251f715df.jpg",
@@ -44,6 +49,7 @@
     "static/media/Untitled-7-min.jpg": "/static/media/Untitled-7-min.2ec478e1f4266020dff2.jpg",
     "static/media/Untitled-4-min.jpg": "/static/media/Untitled-4-min.3324b73007f949e092a4.jpg",
     "static/media/Untitled-13-min.jpg": "/static/media/Untitled-13-min.70c2fb32a37ac4c925fb.jpg",
+    "static/media/Untitled-21-min.jpg": "/static/media/Untitled-21-min.40f8beab2b24bb6d1297.jpg",
     "static/media/Untitled-10-min.jpg": "/static/media/Untitled-10-min.2a9f75f81790376f205d.jpg",
     "static/media/Affinity Diagram-min.png": "/static/media/Affinity Diagram-min.493c9922d76af4525fa5.png",
     "static/media/journey_map_gabriella-min.PNG": "/static/media/journey_map_gabriella-min.d33da6c9d1a692b019cf.PNG",
@@ -53,11 +59,11 @@
     "static/media/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/static/media/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.fb4cabc3dd433946ff0b50f2c1f39c67.svg",
     "static/media/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/static/media/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.444d0e11927b4093fcb9984b421bfade.svg",
     "main.cf924fb0.css.map": "/static/css/main.cf924fb0.css.map",
-    "main.7bb0711d.js.map": "/static/js/main.7bb0711d.js.map",
+    "main.2f1bd1c7.js.map": "/static/js/main.2f1bd1c7.js.map",
     "453.96f281e0.chunk.js.map": "/static/js/453.96f281e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf924fb0.css",
-    "static/js/main.7bb0711d.js"
+    "static/js/main.2f1bd1c7.js"
   ]
 }
