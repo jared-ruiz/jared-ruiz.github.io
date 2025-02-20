@@ -32,6 +32,19 @@ const SketchArray = [
         title: "",
         src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-16-min.jpg')
     },
+
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-25-min.jpg')
+    },
+    {
+        index: 0,
+        title: "",
+        src: require('../../Assets/Compressed_Images/compressed_sketches/Untitled-26-min.jpg')
+    },
+
+    
     
     {
         index: 0,
