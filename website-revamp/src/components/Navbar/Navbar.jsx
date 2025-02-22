@@ -1,13 +1,42 @@
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css"; 
-import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars } from "react-icons/fa";
+// import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
+import { useState } from 'react';
 
 const Navbar = () => {
+
+  //mobile hamburger nav state
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggleMenu() {
+    setIsOpen(!isOpen);
+  }
+
+  function closeMenu() {
+    setIsOpen(false);
+  }
+
+  // state for copying email text to clipboard
+  const [copiedEmail, setCopiedEmail] = useState(false);
+  const email = 'Jared707@gmail.com';
+
+  // handles setting clipboard to coied email text
+  function copyToClipboard() {
+    navigator.clipboard.writeText(email);
+    setCopiedEmail(true);
+    setTimeout(() => setCopiedEmail(false), 2000);
+  }
 
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
-        <ul className={classes.nav_links}>
+
+      <button className={classes.hamburger_icon} onClick={toggleMenu}>
+        {isOpen ? <FaTimes /> : <FaBars />}
+      </button>
+
+      <ul className={`${classes.nav_links} ${isOpen ? classes.hide_links : ''}`}>
           {["Designs", "Sketchbook", "Projects", "About"].map((item) => (
             <li key={item}>
               <NavLink to={item.toLowerCase()} className={({ isActive }) =>
@@ -20,19 +49,41 @@ const Navbar = () => {
         </ul>
 
         <div className={classes.social_icons}>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={classes.icon}>
+        {copiedEmail && <span className={classes.copied_text}>Email Copied!</span>}
+          <a href='' target="_blank" rel="noopener noreferrer" className={classes.icon}>
             <FaFilePdf />
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className={classes.icon}>
+          <a href="https://github.com/jared-ruiz" target="_blank" rel="noopener noreferrer" className={classes.icon}>
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className={classes.icon}>
+          <a href="https://linkedin.com/in/jaredruiz/" target="_blank" rel="noopener noreferrer" className={classes.icon}>
             <FaLinkedin />
           </a>
-          <a href="mailto:youremail@example.com" className={classes.icon}>
+          <a className={classes.icon} onClick={copyToClipboard}>
             <FaEnvelope />
           </a>
+
+
+          <div className={`${classes.sidebar} ${isOpen ? classes.show_sidebar : ""}`}>
+            <button className={classes.close_btn} onClick={closeMenu}>
+              <FaTimes />
+            </button>
+            <ul className={classes.nav_links}>
+            {["Designs", "Sketchbook", "Projects", "About"].map((item) => (
+              <li key={item}>
+                <NavLink to={item.toLowerCase()} className={({ isActive }) =>
+                    `${classes["nav_item"]} ${isActive ? classes.active : ""}`
+                  } onClick={closeMenu}>
+                  {item}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+
+          </div>
+
         </div>
+        {isOpen && <div className={classes.overlay} onClick={closeMenu}></div>}
       </div>
     </nav>
   );

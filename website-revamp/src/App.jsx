@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar.jsx';
 import Designs from "./components/Designs/Designs.jsx";
 
@@ -7,6 +7,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Navigate to="/designs" />} />
         <Route path="/designs" element={<Designs />} />
         <Route path="/sketchbook" element={<h2 className="page">About Us</h2>} />
         <Route path="/projects" element={<h2 className="page">Our Services</h2>} />

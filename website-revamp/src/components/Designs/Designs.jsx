@@ -12,11 +12,13 @@ function Designs() {
     function handleOpenModal(src, title) {
         setSelectedImage(src);
         setSelectedTitle(title);
+
     }
     
     function handleCloseModal() {
         setSelectedImage(null);
         setSelectedTitle('')
+
     }
 
     return(

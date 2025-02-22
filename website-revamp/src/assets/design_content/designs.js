@@ -18,98 +18,96 @@ import glasses from '../../assets/design_images/woman_glasses_02-min.jpg';
 import onCar from '../../assets/design_images/woman_on_car-min.jpg';
 
 const designItems = [
-    
-        {
-            index: 0,
-            title: 'test',
-            src: aragorn
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: thinking
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: grunge
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: halloween
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: mallAd
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: me
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: naja
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: pier
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: shoeAd
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: squat_01
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: squat_02
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: stairs
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: vapor
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: vinTech
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: boots_01
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: coat_01
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: glasses
-        },
-        {
-            index: 0,
-            title: 'test',
-            src: onCar
-        },
-
+    {
+        index: 0,
+        title: '~Teeth',
+        src: coat_01
+    },
+    {
+        index: 0,
+        title: 'Please, Rest',
+        src: squat_02
+    },
+    {
+        index: 0,
+        title: 'Unending',
+        src: glasses
+    },
+    {
+        index: 0,
+        title: 'グランジ',
+        src: grunge
+    },
+    {
+        index: 0,
+        title: `Just Hangin'`,
+        src: squat_01
+    },
+    {
+        index: 0,
+        title: 'The Pier',
+        src: pier
+    },
+    {
+        index: 0,
+        title: `You're Missing Out`,
+        src: mallAd
+    },
+    {
+        index: 0,
+        title: `Think`,
+        src: thinking
+    },
+    {
+        index: 0,
+        title: `Motivation`,
+        src: onCar
+    },
+    {
+        index: 0,
+        title: `Woman_in_boots.jpg`,
+        src: boots_01
+    },
+    {
+        index: 0,
+        title: `Me`,
+        src: me
+    },
+    {
+        index: 0,
+        title: `Red Door`,
+        src: stairs
+    },
+    {
+        index: 0,
+        title: `Hack or Treat Flyer`,
+        src: halloween
+    },
+    {
+        index: 0,
+        title: 'Shoe Ad',
+        src: shoeAd
+    },
+    {
+        index: 0,
+        title: `~Angel Sighting`,
+        src: naja
+    },
+    {
+        index: 0,
+        title: `King of Gondor`,
+        src: aragorn
+    },
+    {
+        index: 0,
+        title: `Vapor`,
+        src: vapor
+    },
+    {
+        index: 0,
+        title: `Vintage Tech Poster`,
+        src: vinTech
+    },
 
 ]
 
