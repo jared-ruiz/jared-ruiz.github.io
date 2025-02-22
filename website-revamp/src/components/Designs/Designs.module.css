@@ -1,0 +1,29 @@
+.grid_styling {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; 
+    padding: 20px;
+  }
+  
+  .grid_item {
+    aspect-ratio: 8.5 / 11;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.562);
+  }
+
+  .grid_item:hover {
+    transform: scale(1.01); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .image {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+    background-color: #f3f3f3; 
+
+  }

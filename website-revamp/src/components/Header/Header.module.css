@@ -1,0 +1,24 @@
+.nav_container {
+    display: flex;
+    width: 100vw;
+}
+
+button {
+    color: white;
+    border-radius: .6rem;
+    background-color: rgb(69, 69, 92);
+    padding: .5rem;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    margin: 10px ;
+}
+
+button:hover {
+    background-color: rgb(158, 158, 187);
+    transition: .4s;
+}
+
+button:active {
+    transform: translateY(3px);
+}
