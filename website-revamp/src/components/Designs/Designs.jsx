@@ -35,7 +35,7 @@ function Designs() {
             </div>
             {selectedImage && selectedTitle ? 
 
-            <Modal exitModal={handleCloseModal} enterModa={handleOpenModal} imageSrc={selectedImage} imageTitle={selectedTitle}/>
+                <Modal exitModal={handleCloseModal} enterModal={handleOpenModal} imageSrc={selectedImage} imageTitle={selectedTitle}/>
 
             : null }
 

@@ -31,123 +31,123 @@ const sketchItems = [
         src: nose
     },
     {
-        index: 0,
+        index: 1,
         title: 'Sonic con Una Espada',
         src: sonic_sword
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 2,
+        title: 'Pirate King',
         src: luffy_01
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 3,
+        title: 'Palantír',
         src: wizard_01
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 4,
+        title: 'LAX Airport',
         src: lax
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 5,
+        title: 'Brothers at Odds',
         src: two_lads
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 6,
+        title: '~Cradled',
         src: they_slay
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 7,
+        title: 'Still Standing',
         src: headless
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 8,
+        title: '~at',
         src: ratsona
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 9,
+        title: 'A Future Crushed',
         src: crushed
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 10,
+        title: 'Blood Sucker',
         src: vamp
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 11,
+        title: 'rat_sketches',
         src: rat_sketches
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 12,
+        title: 'A Tale Untold',
         src: book_mouth
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 13,
+        title: 'She Stands',
         src: mint_breeze
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 14,
+        title: 'Joyous',
         src: luffy_02
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 15,
+        title: 'Unsatisfied',
         src: judging
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 16,
+        title: 'The One and Only',
         src: sonic_shoulder
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 17,
+        title: 'Mice Duo',
         src: mice_boys
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 18,
+        title: 'Hack or Treat Draft_01',
         src: hack_01
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 19,
+        title: 'Hack or Treat Draft_02',
         src: hack_02
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 20,
+        title: 'Skeleton_01',
         src: skelly_comp
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 21,
+        title: 'Skeleton_02',
         src: skelly_keyb
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 22,
+        title: 'Hack or Treat Draft_03',
         src: hack_03
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 23,
+        title: 'Hack or Treat Draft_04',
         src: hack_04
     },
     {
-        index: 0,
-        title: 'Sonic con Una Espada',
+        index: 24,
+        title: 'Lil Gunner Man',
         src: lil_gunner
     },
 ]
