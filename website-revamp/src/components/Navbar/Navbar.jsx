@@ -1,5 +1,6 @@
 import classes from "./Navbar.module.css"; 
 import { NavLink } from "react-router-dom";
+import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf'
 
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars } from "react-icons/fa";
 // import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
@@ -52,7 +53,7 @@ const Navbar = () => {
 
         <div className={classes.social_icons}>
         {copiedEmail && <span className={classes.copied_text}>Email Copied!</span>}
-          <a href='' target="_blank" rel="noopener noreferrer" className={classes.icon}>
+          <a href={resume} target="_blank" rel="noopener noreferrer" className={classes.icon}>
             <FaFilePdf />
           </a>
           <a href="https://github.com/jared-ruiz" target="_blank" rel="noopener noreferrer" className={classes.icon}>
