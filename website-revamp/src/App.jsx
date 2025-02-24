@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Navbar from './components/Navbar/Navbar.jsx';
 import Designs from "./components/Designs/Designs.jsx";
 import Sketchbook from "./components/Sketches/Sketches.jsx";
+import About from './components/About/About.jsx';
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
         <Route path="/" element={<Navigate to="/designs" />} />
         <Route path="/designs" element={<Designs />} />
         <Route path="/sketchbook" element={<Sketchbook />} />
-        <Route path="/projects" element={<h2 className="page">Our Services</h2>} />
-        <Route path="/about" element={<h2 className="page">Contact Us</h2>} />
+        <Route path="/projects" element="" />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,127 @@
+.about_container {
+    width: auto;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.card_rim {
+    width: 100%;
+    /* background-color: #E8E2D9; */
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.562); */
+    
+}
+
+.card_top {
+
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #A9A8A8; */
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    
+}
+
+.card_top h1 {
+    color: white
+}
+
+.card_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.card_image {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.prof_01 {
+    max-width: 70%;
+    border-radius: 400px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.562);
+}
+
+.card_me_info h1 {
+    color: white;
+    margin-top: 10px;
+    font-family: poppins;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.card_me_info p {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.card_me_info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px; */
+    padding-left: 40px;
+}
+
+.about_skills {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+}
+
+.tab_container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  }
+  @media only screen and (max-width: 428px) {
+    .about_container {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_image {
+        width: auto;
+    }
+    
+    .card_me_info {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .card_me_info p {
+        justify-content: center;
+        align-items: center;
+    }
+  }
