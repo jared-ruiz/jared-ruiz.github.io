@@ -93,6 +93,41 @@
     padding: 20px;
 }
 
+@media only screen and (max-width: 1346px) {
+    .about_container {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .card_image {
+        width: 80%;
+    }
+
+    .card_content {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_me_info {
+        width: 70%;
+        padding-left: 0;
+    }
+
+    .card_me_info p {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab_container {
+        margin-top: 0;
+        padding: 0;
+        height: 16.6vh;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .about_container {
         display: flex;
@@ -101,7 +136,7 @@
     }
 
     .card_image {
-        width: 70%;
+        width: 60%;
     }
 
     .card_content {
@@ -111,9 +146,25 @@
         justify-content: center;
         align-items: center;
     }
+
+    .card_me_info {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .card_me_info p {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab_container {
+        margin-top: 0;
+        padding: 0;
+        height: 16.6vh;
+    }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 690px) {
 
     .about_container {
         display: flex;
@@ -130,11 +181,28 @@
     }
 
     .card_image {
-        width: 50%;
+        width: 90%;
+    }
+
+    .card_me_info {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .card_me_info p {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab_container {
+        margin-top: 0;
+        padding: 0;
+        height: 20vh;
     }
   }
 
-  @media only screen and (max-width: 428px) {
+
+  @media only screen and (max-width: 510px) {
     .about_container {
         display: flex;
         align-items: center;
@@ -161,10 +229,12 @@
     .card_me_info p {
         justify-content: center;
         align-items: center;
+        font-size: 17px;
     }
 
     .tab_container {
         margin-top: 0;
         padding: 0;
+        height: 48vh;
     }
   }

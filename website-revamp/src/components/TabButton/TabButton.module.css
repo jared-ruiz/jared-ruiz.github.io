@@ -37,9 +37,11 @@
     color: white;
     font-size: 20px;
 }
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 430px) {
     .tab_content {
+        
         margin-top: 0;
+        margin-bottom: 40px;
     }
 
     .tab_content p {
