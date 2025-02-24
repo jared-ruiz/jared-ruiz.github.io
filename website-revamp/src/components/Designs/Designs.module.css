@@ -42,7 +42,7 @@
     }
   }
 
-  @media only screen and (max-width: 428px) {
+  @media only screen and (max-width: 430px) {
     .grid_styling{
       grid-template-columns: repeat(1, 1fr);
     }
