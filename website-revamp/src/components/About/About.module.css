@@ -125,7 +125,7 @@
     .tab_container {
         margin-top: 0;
         padding: 0;
-        height: 16.6vh;
+        height: auto;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -160,7 +160,7 @@
     .tab_container {
         margin-top: 0;
         padding: 0;
-        height: 16.6vh;
+        height: auto;
     }
 }
 
@@ -197,7 +197,7 @@
     .tab_container {
         margin-top: 0;
         padding: 0;
-        height: 20vh;
+        height: auto;
     }
   }
 
@@ -235,6 +235,6 @@
     .tab_container {
         margin-top: 0;
         padding: 0;
-        height: 48vh;
+        height: auto;
     }
   }
