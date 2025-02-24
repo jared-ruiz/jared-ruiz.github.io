@@ -1,6 +1,7 @@
 import classes from "./Navbar.module.css"; 
 import { NavLink } from "react-router-dom";
-import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf'
+
+import resume from '../../../public/Resume_Jared_Ruiz(2025).pdf'
 
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars } from "react-icons/fa";
 // import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
