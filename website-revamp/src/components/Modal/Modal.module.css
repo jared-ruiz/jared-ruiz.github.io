@@ -68,6 +68,11 @@
     animation: fadeIn 0.3s ease-in-out;
   }
 
+  @media only screen and (max-width: 560px) {
+    .modal_text_container {
+      width: 504px;
+    }
+  }
   @media only screen and (max-width: 428px) {
     .modal_text_container {
       width: 385px;

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar.jsx';
 import Designs from "./components/Designs/Designs.jsx";
 import Sketchbook from "./components/Sketches/Sketches.jsx";
