@@ -1,5 +1,6 @@
-import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css"; 
+import { NavLink } from "react-router-dom";
+
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars } from "react-icons/fa";
 // import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
 import { useState } from 'react';
@@ -28,8 +29,9 @@ const Navbar = () => {
     setTimeout(() => setCopiedEmail(false), 2000);
   }
 
+  //put inline syling to avoid FOUC
   return (
-    <nav className={classes.navbar}>
+    <nav className={classes.navbar} style={{display: 'none'}}>
       <div className={classes.container}>
 
       <button className={classes.hamburger_icon} onClick={toggleMenu}>

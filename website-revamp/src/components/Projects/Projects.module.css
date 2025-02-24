@@ -1,4 +1,8 @@
 .tempStyle {
+    display: flex;
+    width: auto;
+    align-items: center;
     padding: 20px;
     color: white;
+    justify-content: center;
 }

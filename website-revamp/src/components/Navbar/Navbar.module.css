@@ -4,6 +4,7 @@
   background-color: transparent;
   padding: 15px 10px;
   font-family: poppins;
+  display: block !important;
 }
   
 .container {

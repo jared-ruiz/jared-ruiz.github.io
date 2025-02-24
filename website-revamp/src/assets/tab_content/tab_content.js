@@ -12,7 +12,7 @@ const tab_content = [
     {
         index: 2,
         title: 'Certifications',
-        content: 'Google Data Analytics (In Progress) | Google Ads Search | Google UX Design | SEO (HubSpot) | Social Media Marketing (HubSpot) | Social Media Marketing II (HubSpot) | Full Stack Web Development (University of Texas at San Antonio)'
+        content: 'Google Data Analytics (WIP) | Google Ads Search | Google UX Design | SEO | Social Media Marketing | Social Media Marketing II | Full Stack Web Development'
     }
 
 ]

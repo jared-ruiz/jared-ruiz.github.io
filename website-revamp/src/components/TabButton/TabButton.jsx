@@ -22,7 +22,7 @@ function TabButton() {
             </ul>
 
             <div className={classes.tab_content}>
-                <p>{tab_content.find(item => item.index === activeTab).content}</p>
+                <p>{tab_content.find(item => item.index === activeTab).content.split('|').join(' • ')}</p>
             </div>
         </>
     )

@@ -1,7 +1,7 @@
 import designItems from '../../assets/design_content/designs.js';
 import classes from '../Designs/Designs.module.css';
 import Modal from '../Modal/Modal.jsx';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Designs() {
 
@@ -9,6 +9,13 @@ function Designs() {
     const [selectedImage, setSelectedImage] = useState();
     const [selectedTitle, setSelectedTitle] = useState();
     
+    useEffect(() => {
+        designItems.forEach((item) => {
+            const img = new Image();
+            img.src = item.src; 
+        });
+    }, []);
+
     function handleOpenModal(src, title) {
         setSelectedImage(src);
         setSelectedTitle(title);

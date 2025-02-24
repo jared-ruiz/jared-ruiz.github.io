@@ -1,8 +1,17 @@
 import classes from '../About/About.module.css';
 import prof_01 from '../../assets/profile_images/about_me_pic-min.png'
 import TabButton from '../TabButton/TabButton';
+import { useEffect, useState } from 'react';
 
 function About() {
+
+    const [imageLoaded, setImageLoaded] = useState(false); 
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = prof_01;
+        img.onload = () => setImageLoaded(true); 
+    }, []);
 
     return(
         <>
@@ -10,7 +19,12 @@ function About() {
                 <div className={classes.card_content}>
 
                     <div className={classes.card_image}>
-                            <img src={prof_01} className={classes.prof_01}/>
+                    {imageLoaded ? (
+                        <img src={prof_01} className={classes.prof_01} alt="Jared Ruiz" />
+                    
+                        
+                ) : null}
+                            {/* <img src={prof_01} className={classes.prof_01}/> */}
                     </div>
 
                     <div className={classes.card_me_info}>

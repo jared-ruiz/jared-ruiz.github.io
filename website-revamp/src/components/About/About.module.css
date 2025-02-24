@@ -93,9 +93,47 @@
     padding: 20px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
+    .about_container {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
 
+    .card_image {
+        width: 70%;
+    }
+
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+
+    .about_container {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_image {
+        width: 50%;
+    }
   }
+
   @media only screen and (max-width: 428px) {
     .about_container {
         display: flex;

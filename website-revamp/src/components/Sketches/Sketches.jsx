@@ -1,6 +1,6 @@
 import sketchItems from '../../assets/sketchbook_content/sketchbook.js';
 import classes from '../Sketches/Sketches.module.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from '../Modal/Modal.jsx';
 
 function Sketchbook() {
@@ -8,6 +8,13 @@ function Sketchbook() {
     // state for capturing the image src and title of selected grid item
     const [selectedImage, setSelectedImage] = useState();
     const [selectedTitle, setSelectedTitle] = useState();
+
+    useEffect(() => {
+        sketchItems.forEach((item) => {
+            const img = new Image();
+            img.src = item.src; 
+        });
+    }, []);
 
     function handleOpenModal(src, title) {
         setSelectedImage(src);
