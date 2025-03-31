@@ -25,6 +25,9 @@ import hack_04 from '../../assets/sketchbook_images/Untitled-12-min.jpg';
 import lil_gunner from '../../assets/sketchbook_images/Untitled-13-min.jpg';
 import knight from '../../assets/sketchbook_images/Untitled-27-min.jpg'
 import hblast from '../../assets/sketchbook_images/Untitled-28-min.jpg'
+import luffy_03 from '../../assets/sketchbook_images/Untitled-29-min.jpg'
+import thug from '../../assets/sketchbook_images/Untitled-30-min.jpg'
+import good_times from '../../assets/sketchbook_images/Untitled-31-min.jpg'
 
 const sketchItems = [
     {
@@ -34,131 +37,146 @@ const sketchItems = [
     },
     {
         index: 1,
+        title: 'Push Forward',
+        src: good_times
+    },
+    {
+        index: 2,
         title: 'Sonic con Una Espada',
         src: sonic_sword
     },
     {
-        index: 2,
+        index: 3,
         title: 'Pirate King',
         src: luffy_01
     },
     {
-        index: 3,
+        index: 4,
         title: 'Palantír',
         src: wizard_01
     },
     {
-        index: 4,
+        index: 5,
         title: 'Knight',
         src: knight
     },
     {
-        index: 5,
+        index: 6,
         title: 'LAX Airport',
         src: lax
     },
     {
-        index: 6,
+        index: 7,
         title: 'Brothers at Odds',
         src: two_lads
     },
     {
-        index: 7,
+        index: 8,
         title: '~Cradled',
         src: they_slay
     },
     {
-        index: 8,
+        index: 9,
+        title: 'Sharp Teeth',
+        src: thug
+    },
+    {
+        index: 10,
+        title: 'Gentle Soul',
+        src: luffy_03
+    },
+    {
+        index: 11,
         title: 'Still Standing',
         src: headless
     },
     {
-        index: 9,
+        index: 12,
         title: 'Heat Blast',
         src: hblast
     },
     {
-        index: 10,
-        title: '~at',
+        index: 13,
+        title: '~rat',
         src: ratsona
     },
     {
-        index: 11,
+        index: 14,
         title: 'A Future Crushed',
         src: crushed
     },
     {
-        index: 12,
+        index: 15,
         title: 'Blood Sucker',
         src: vamp
     },
     {
-        index: 13,
+        index: 16,
         title: 'rat_sketches',
         src: rat_sketches
     },
     {
-        index: 14,
+        index: 17,
         title: 'A Tale Untold',
         src: book_mouth
     },
     {
-        index: 15,
+        index: 18,
         title: 'She Stands',
         src: mint_breeze
     },
     {
-        index: 16,
+        index: 19,
         title: 'Joyous',
         src: luffy_02
     },
     {
-        index: 17,
+        index: 20,
         title: 'Unsatisfied',
         src: judging
     },
     {
-        index: 18,
+        index: 21,
         title: 'The One and Only',
         src: sonic_shoulder
     },
     {
-        index: 19,
+        index: 22,
         title: 'Mice Duo',
         src: mice_boys
     },
     {
-        index: 20,
+        index: 23,
         title: 'Hack or Treat Draft_01',
         src: hack_01
     },
     {
-        index: 21,
+        index: 24,
         title: 'Hack or Treat Draft_02',
         src: hack_02
     },
     {
-        index: 22,
+        index: 25,
         title: 'Skeleton_01',
         src: skelly_comp
     },
     {
-        index: 23,
+        index: 26,
         title: 'Skeleton_02',
         src: skelly_keyb
     },
     {
-        index: 24,
+        index: 27,
         title: 'Hack or Treat Draft_03',
         src: hack_03
     },
     {
-        index: 25,
+        index: 28,
         title: 'Hack or Treat Draft_04',
         src: hack_04
     },
     {
-        index: 26,
+        index: 29,
         title: 'Lil Gunner Man',
         src: lil_gunner
     },
