@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import resume from '../../../public/Resume_Jared_Ruiz(2025).pdf'
 
-import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars, FaArchive} from "react-icons/fa";
 // import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
 import { useState } from 'react';
 
@@ -54,6 +54,11 @@ const Navbar = () => {
 
         <div className={classes.social_icons}>
         {copiedEmail && <span className={classes.copied_text}>Email Copied!</span>}
+
+
+          <a href="https://drive.google.com/drive/folders/1wam9Oo4IDDXOXjhImSbFNroGUdy4pFeC?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.icon}>
+            <FaArchive />
+          </a>
           <a href={resume} target="_blank" rel="noopener noreferrer" className={classes.icon}>
             <FaFilePdf />
           </a>

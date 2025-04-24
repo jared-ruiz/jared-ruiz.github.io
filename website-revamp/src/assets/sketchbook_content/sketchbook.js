@@ -23,11 +23,12 @@ import skelly_keyb from '../../assets/sketchbook_images/Untitled-10-min.jpg';
 import hack_03 from '../../assets/sketchbook_images/Untitled-11-min.jpg';
 import hack_04 from '../../assets/sketchbook_images/Untitled-12-min.jpg';
 import lil_gunner from '../../assets/sketchbook_images/Untitled-13-min.jpg';
-import knight from '../../assets/sketchbook_images/Untitled-27-min.jpg'
-import hblast from '../../assets/sketchbook_images/Untitled-28-min.jpg'
-import luffy_03 from '../../assets/sketchbook_images/Untitled-29-min.jpg'
-import thug from '../../assets/sketchbook_images/Untitled-30-min.jpg'
-import good_times from '../../assets/sketchbook_images/Untitled-31-min.jpg'
+import knight from '../../assets/sketchbook_images/Untitled-27-min.jpg';
+import hblast from '../../assets/sketchbook_images/Untitled-28-min.jpg';
+import luffy_03 from '../../assets/sketchbook_images/Untitled-29-min.jpg';
+import thug from '../../assets/sketchbook_images/Untitled-30-min.jpg';
+import good_times from '../../assets/sketchbook_images/Untitled-31-min.jpg';
+import the_fall from '../../assets/sketchbook_images/Untitled-32-min.jpg';
 
 const sketchItems = [
     {
@@ -87,96 +88,101 @@ const sketchItems = [
     },
     {
         index: 11,
+        title: 'Falling Down',
+        src: the_fall
+    },
+    {
+        index: 12,
         title: 'Still Standing',
         src: headless
     },
     {
-        index: 12,
+        index: 13,
         title: 'Heat Blast',
         src: hblast
     },
     {
-        index: 13,
+        index: 14,
         title: '~rat',
         src: ratsona
     },
     {
-        index: 14,
+        index: 15,
         title: 'A Future Crushed',
         src: crushed
     },
     {
-        index: 15,
+        index: 16,
         title: 'Blood Sucker',
         src: vamp
     },
     {
-        index: 16,
+        index: 17,
         title: 'rat_sketches',
         src: rat_sketches
     },
     {
-        index: 17,
+        index: 18,
         title: 'A Tale Untold',
         src: book_mouth
     },
     {
-        index: 18,
+        index: 19,
         title: 'She Stands',
         src: mint_breeze
     },
     {
-        index: 19,
+        index: 20,
         title: 'Joyous',
         src: luffy_02
     },
     {
-        index: 20,
+        index: 21,
         title: 'Unsatisfied',
         src: judging
     },
     {
-        index: 21,
+        index: 22,
         title: 'The One and Only',
         src: sonic_shoulder
     },
     {
-        index: 22,
+        index: 23,
         title: 'Mice Duo',
         src: mice_boys
     },
     {
-        index: 23,
+        index: 24,
         title: 'Hack or Treat Draft_01',
         src: hack_01
     },
     {
-        index: 24,
+        index: 25,
         title: 'Hack or Treat Draft_02',
         src: hack_02
     },
     {
-        index: 25,
+        index: 26,
         title: 'Skeleton_01',
         src: skelly_comp
     },
     {
-        index: 26,
+        index: 27,
         title: 'Skeleton_02',
         src: skelly_keyb
     },
     {
-        index: 27,
+        index: 28,
         title: 'Hack or Treat Draft_03',
         src: hack_03
     },
     {
-        index: 28,
+        index: 29,
         title: 'Hack or Treat Draft_04',
         src: hack_04
     },
     {
-        index: 29,
+        index: 30,
         title: 'Lil Gunner Man',
         src: lil_gunner
     },
