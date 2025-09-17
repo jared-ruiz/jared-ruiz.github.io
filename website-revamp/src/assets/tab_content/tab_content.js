@@ -12,7 +12,7 @@ const tab_content = [
     {
         index: 2,
         title: 'Certifications',
-        content: 'Google Data Analytics (WIP) | Google Ads Search | Google UX Design | SEO | Social Media Marketing | Social Media Marketing II | Full Stack Web Development'
+        content: 'Google Data Analytics (WIP) | Google Ads Search | Google UX Design | SEO | Social Media Marketing | Social Media Marketing II | Full Stack Web Development | Python For Everybody'
     }
 
 ]

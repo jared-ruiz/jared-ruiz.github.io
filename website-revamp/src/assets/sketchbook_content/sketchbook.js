@@ -29,6 +29,7 @@ import luffy_03 from '../../assets/sketchbook_images/Untitled-29-min.jpg';
 import thug from '../../assets/sketchbook_images/Untitled-30-min.jpg';
 import good_times from '../../assets/sketchbook_images/Untitled-31-min.jpg';
 import the_fall from '../../assets/sketchbook_images/Untitled-32-min.jpg';
+import blk_rat from '../../assets/sketchbook_images/blk_rat_01-min.jpg';
 
 const sketchItems = [
     {
@@ -98,91 +99,96 @@ const sketchItems = [
     },
     {
         index: 13,
+        title: 'BLKRAT STUDIO',
+        src: blk_rat
+    },
+    {
+        index: 14,
         title: 'Heat Blast',
         src: hblast
     },
     {
-        index: 14,
+        index: 15,
         title: '~rat',
         src: ratsona
     },
     {
-        index: 15,
+        index: 16,
         title: 'A Future Crushed',
         src: crushed
     },
     {
-        index: 16,
+        index: 17,
         title: 'Blood Sucker',
         src: vamp
     },
     {
-        index: 17,
+        index: 18,
         title: 'rat_sketches',
         src: rat_sketches
     },
     {
-        index: 18,
+        index: 19,
         title: 'A Tale Untold',
         src: book_mouth
     },
     {
-        index: 19,
+        index: 20,
         title: 'She Stands',
         src: mint_breeze
     },
     {
-        index: 20,
+        index: 21,
         title: 'Joyous',
         src: luffy_02
     },
     {
-        index: 21,
+        index: 22,
         title: 'Unsatisfied',
         src: judging
     },
     {
-        index: 22,
+        index: 23,
         title: 'The One and Only',
         src: sonic_shoulder
     },
     {
-        index: 23,
+        index: 24,
         title: 'Mice Duo',
         src: mice_boys
     },
     {
-        index: 24,
+        index: 25,
         title: 'Hack or Treat Draft_01',
         src: hack_01
     },
     {
-        index: 25,
+        index: 26,
         title: 'Hack or Treat Draft_02',
         src: hack_02
     },
     {
-        index: 26,
+        index: 27,
         title: 'Skeleton_01',
         src: skelly_comp
     },
     {
-        index: 27,
+        index: 28,
         title: 'Skeleton_02',
         src: skelly_keyb
     },
     {
-        index: 28,
+        index: 29,
         title: 'Hack or Treat Draft_03',
         src: hack_03
     },
     {
-        index: 29,
+        index: 30,
         title: 'Hack or Treat Draft_04',
         src: hack_04
     },
     {
-        index: 30,
+        index: 31,
         title: 'Lil Gunner Man',
         src: lil_gunner
     },

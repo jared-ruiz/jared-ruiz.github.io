@@ -16,6 +16,9 @@ import boots_01 from '../../assets/design_images/woman_boots-min.jpg';
 import coat_01 from '../../assets/design_images/woman_coat_02-min.jpg';
 import glasses from '../../assets/design_images/woman_glasses_02-min.jpg';
 import onCar from '../../assets/design_images/woman_on_car-min.jpg';
+import green_life from '../../assets/design_images/half_tone_idea_01-min.jpg';
+import vocal_heat from '../../assets/design_images/heatmap_01-min.jpg';
+import red_sun from '../../assets/design_images/red_dither_model_01-min.jpg';
 
 const designItems = [
     {
@@ -27,6 +30,16 @@ const designItems = [
         index: 0,
         title: 'Please, Rest',
         src: squat_02
+    },
+    {
+        index: 0,
+        title: 'Red Sun',
+        src: red_sun
+    },
+    {
+        index: 0,
+        title: 'Green Green Green?',
+        src: green_life
     },
     {
         index: 0,
@@ -42,6 +55,11 @@ const designItems = [
         index: 0,
         title: `Just Hangin'`,
         src: squat_01
+    },
+    {
+        index: 0,
+        title: `Burning to Find You~`,
+        src: vocal_heat
     },
     {
         index: 0,
