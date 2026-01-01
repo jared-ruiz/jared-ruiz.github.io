@@ -1,5 +1,5 @@
 import classes from '../About/About.module.css';
-import prof_01 from '../../assets/profile_images/about_me_pic-min.png'
+import prof_01 from '../../assets/profile_images/about_me_profile_min.jpg'
 import TabButton from '../TabButton/TabButton';
 import { useEffect, useState } from 'react';
 
@@ -29,9 +29,9 @@ function About() {
 
                     <div className={classes.card_me_info}>
                         <h1>Hello, my name is Jared Ruiz</h1>
-                        <p>I am a graphic designer, video editor, full stack developer, and UX/UI designer based in San Antonio, Texas. I have over 4 years of experience working within small businesses, creating and managing media creation and social media efforts in the cyber security industry, and over 5 years of experience in education and B2C sales.
+                        <p>I am a Digital Marketing professional based in San Antonio, TX! With a BBA in Marketing and 4+ years of experience spanning graphic design, social media, web development, and SEO, I am able to approach challenges from multiple angles to create effective, thoughtful solutions.
                         </p>
-                        <p>Whether it’s voiceovers for informational video projects, content for your next marketing campaign, website UI refactoring, or social media management, I can do it all and more. I look forward to working with you!</p>
+                        <p>I’m currently seeking opportunities within the digital marketing space, where I can contribute to a collaborative team and help drive meaningful results!</p>
                         <p>-J</p>
                     </div>
                 </div>

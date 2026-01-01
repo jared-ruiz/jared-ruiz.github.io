@@ -1,7 +1,7 @@
 import classes from "./Navbar.module.css"; 
 import { NavLink } from "react-router-dom";
 
-import resume from '../../../public/Resume_Jared_Ruiz(2025).pdf'
+import resume from '../../../public/Resume_Jared_Ruiz(2026).pdf'
 
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaTimes, FaBars, FaArchive} from "react-icons/fa";
 // import resume from '../../assets/documents/resume/Resume - Jared Ruiz - 2025.pdf';
@@ -41,7 +41,7 @@ const Navbar = () => {
       </button>
 
       <ul className={`${classes.nav_links} ${isOpen ? classes.hide_links : ''}`}>
-          {["Designs", "Sketchbook", "Projects", "About"].map((item) => (
+          {["Designs", "Sketchbook", "About"].map((item) => (
             <li key={item}>
               <NavLink to={item.toLowerCase()} className={({ isActive }) =>
                   `${classes["nav_item"]} ${isActive ? classes.active : ""}`
