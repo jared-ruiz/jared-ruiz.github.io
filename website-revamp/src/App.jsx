@@ -1,13 +1,14 @@
-import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+// import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Designs from "./components/Designs/Designs.jsx";
 import Sketchbook from "./components/Sketches/Sketches.jsx";
 import About from './components/About/About.jsx';
-import Projects from "./components/Projects/Projects.jsx";
+// import Projects from "./components/Projects/Projects.jsx";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/designs" />} />
@@ -16,7 +17,7 @@ const App = () => {
         {/* <Route path="/projects" element={<Projects />} /> */}
         <Route path="/about" element={<About />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
