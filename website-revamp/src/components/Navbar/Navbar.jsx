@@ -78,7 +78,7 @@ const Navbar = () => {
               <FaTimes />
             </button>
             <ul className={classes.nav_links}>
-            {["Designs", "Sketchbook", "Projects", "About"].map((item) => (
+            {["Designs", "Sketchbook", "About"].map((item) => (
               <li key={item}>
                 <NavLink to={item.toLowerCase()} className={({ isActive }) =>
                     `${classes["nav_item"]} ${isActive ? classes.active : ""}`

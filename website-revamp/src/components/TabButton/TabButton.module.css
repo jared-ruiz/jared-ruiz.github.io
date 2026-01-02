@@ -45,11 +45,11 @@
     }
 
     .tab_content p {
-        font-size: 20px;
+        font-size: 15px;
         padding: 20px;
     }
 
-    .tab_item{
-        font-size: .8rem;
+    .tab_item {
+        font-size: .56rem;
     }
 }
