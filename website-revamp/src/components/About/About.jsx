@@ -29,9 +29,11 @@ function About() {
 
                     <div className={classes.card_me_info}>
                         <h1>Hello, my name is Jared Ruiz</h1>
-                        <p>I am a Digital Marketing professional based in San Antonio, TX! With a BBA in Marketing and 4+ years of experience spanning graphic design, social media, web development, and SEO, I am able to approach challenges from multiple angles to create effective, thoughtful solutions.
+                        <p>I am a Content Operations Specialist with 5+ years of experience optimizing digital content workflows, managing technical partner onboarding, and supporting cross-functional operations. Experienced in authoring technical documentation, developing AI-assisted workflow automation, and building internal tools that improve content quality and operational efficiency
                         </p>
-                        <p>I’m currently seeking opportunities within the digital marketing space, where I can contribute to a collaborative team and help drive meaningful results!</p>
+                        <p>I'm currently seeking opportunities in Content Operations, Technical Operations, Product Operations,
+                        or similar roles where I can contribute to building scalable processes, improving operational
+                        efficiency, and delivering exceptional experiences for both users and business partners.</p>
                         <p>-J</p>
                     </div>
                 </div>
